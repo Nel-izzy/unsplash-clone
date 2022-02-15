@@ -38,7 +38,7 @@ const Photo = ({ urls, user, id }) => {
           className="img-fluid image"
           onClick={openModal}
         />
-        <div className="position-absolute bottom-0 start-0 text-white">
+        <div className="position-absolute bottom-0 start-0 text-white content">
           <label>
             <strong>{name}</strong>
           </label>
